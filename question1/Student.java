@@ -1,5 +1,7 @@
+package question1;
+
 public class Student {
-    //This is a class which depend on Course class
+    //This is a class which depend on question1.Course class
     private final Course course;
 
     //injecting the course object using a constructor
@@ -9,6 +11,6 @@ public class Student {
 
     public void startLearning(){
         course.displayCourse();
-        System.out.println("Student has started learning");
+        System.out.println("question1.Student has started learning");
     }
 }

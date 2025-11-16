@@ -1,3 +1,5 @@
+package question1;
+
 public class StudentCourse {
     public static void main(String[] args){
         //creating a course object
